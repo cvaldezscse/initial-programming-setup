@@ -79,7 +79,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source ~/.bash_profile
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -137,5 +136,6 @@ source ~/.bash_profile
 # # Config for prompt. PS1 synonym.
 # prompt='%2/ $(git_branch_name) > '
 
+source ~/.bash_profile
 alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 
