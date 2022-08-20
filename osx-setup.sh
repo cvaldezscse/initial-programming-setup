@@ -30,7 +30,7 @@ brew install cowsay
 brew install git
 brew install vcprompt
 
-# Node Version Manager
+# Node Version Manager (NVM)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 echo "CARLOS LOG >>>> : You need to restart the CLI prompt to activate nvm"
 
@@ -40,18 +40,22 @@ brew install --cask spectacle
 # brew install --cask alfred
 brew install bind
 
+brew install --cask firefox
 
-# set CMD+space to launch alfred
-brew cask install firefox
+
 # install nvm/node
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 nvm install stable
-mkdir ~/workspace
-npm install -g lite-server eslint
-brew cask install visual-studio-code
+# mkdir ~/workspace
+# npm install -g lite-server eslint
+brew install --cask visual-studio-code
 
-# Configure the finder
-# Install breaktimr and flux
+# Configure the finder settings
+
+
+# Install breaktimer and flux
+brew install --cask breaktimer
+brew install --cask flux
 
 
 
